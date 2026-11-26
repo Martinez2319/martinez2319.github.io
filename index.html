@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="MartiDev Studios - Desarrollo de software, aplicaciones móviles y videojuegos.">
+
+    <title>MartiDev Studios | Official Website</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #080e1c;
+            color: #f1f5f9;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        nav strong {
+            color: #60a5fa;
+            font-size: 22px;
+        }
+
+        a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        nav a {
+            margin-left: 15px;
+        }
+
+        header {
+            padding: 90px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: clamp(38px, 7vw, 65px);
+            margin: 20px 0;
+        }
+
+        h1 span {
+            color: #60a5fa;
+        }
+
+        p {
+            color: #94a3b8;
+            line-height: 1.7;
+        }
+
+        .button {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 14px 28px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #111c2f;
+            border: 1px solid #24334b;
+            border-radius: 14px;
+            padding: 30px;
+        }
+
+        .label {
+            color: #60a5fa;
+            letter-spacing: 3px;
+            font-size: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 35px;
+            color: #94a3b8;
+            border-top: 1px solid #24334b;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <strong>MartiDev Studios</strong>
+        <div>
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <header id="inicio">
+        <span class="label">
+            INDEPENDENT DEVELOPMENT STUDIO
+        </span>
+
+        <h1>
+            Construyendo el<br>
+            <span>futuro digital.</span>
+        </h1>
+
+        <p>
+            Software, aplicaciones móviles y videojuegos.
+        </p>
+
+        <a class="button" href="#proyectos">
+            Explorar proyectos
+        </a>
+    </header>
+
+    <section class="container" id="proyectos">
+
+        <h2>Áreas de desarrollo</h2>
+
+        <div class="grid">
+
+            <article class="card">
+                <h2>Software</h2>
+                <p>
+                    Desarrollo de soluciones digitales,
+                    automatización y herramientas tecnológicas.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>Aplicaciones móviles</h2>
+                <p>
+                    Desarrollo de aplicaciones funcionales
+                    para dispositivos móviles.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>Videojuegos</h2>
+                <p>
+                    Creación de experiencias interactivas
+                    y proyectos independientes.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="container">
+        <h2>Acerca de nosotros</h2>
+        <p>
+            MartiDev Studios es un proyecto independiente
+            de desarrollo de software enfocado en la
+            innovación, la tecnología y la creación de
+            productos digitales.
+        </p>
+
+        <a href="https://github.com/Martinez2319">
+            Ver proyectos en GitHub
+        </a>
+    </section>
+
+    <section class="container" id="contacto">
+        <h2>Contacto</h2>
+        <p>Ciudad Juárez, Chihuahua, México.</p>
+
+        <a href="mailto:martinezd.dev@gmail.com">
+            martinezd.dev@gmail.com
+        </a>
+    </section>
+
+    <footer>
+        © 2026 MartiDev Studios.
+        Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
